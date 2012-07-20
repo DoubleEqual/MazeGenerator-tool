@@ -1,0 +1,30 @@
+Contents of /Users/sid/Desktop/MazeGenerator/MazeGenerator/MazeGenerator-Prefix.pch
+3.1 (tags/Apple/clang-318.0.61) (based on LLVM 3.1svn)
+arm-apple-darwin11.4.0
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+-g
+-mthumb
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-miphoneos-version-min=5.1
+-iquote
+-iquote
+-I/Users/sid/Desktop/MazeGenerator/build/Debug-iphoneos/include
+-F/Users/sid/Desktop/MazeGenerator/build/Debug-iphoneos
+-ferror-limit=10
+-working-directory=/Users/sid/Desktop/MazeGenerator
+-Xclang
+-detailed-preprocessing-record
+SDK_PRODUCT_BUILD_VERSION=9B176
