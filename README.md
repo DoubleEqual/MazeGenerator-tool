@@ -6,7 +6,7 @@ A simple Objective-C class to create a maze. DEMazeGenerator allows you to build
 Just define number of rows, columns and a starting point and the code will do all the magic.
 
 i.e:
-<pre>
+
     int row = 4;
     int col = 4;
     
@@ -31,4 +31,3 @@ i.e:
         }
 
     }];
-</pre>
