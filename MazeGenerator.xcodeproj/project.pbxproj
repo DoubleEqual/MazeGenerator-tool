@@ -15,7 +15,7 @@
 		1F3C5CB615B9666D00E08B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C5CB515B9666D00E08B0C /* AppDelegate.m */; };
 		1F3C5CB915B9666D00E08B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C5CB815B9666D00E08B0C /* ViewController.m */; };
 		1F3C5CBC15B9666D00E08B0C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C5CBA15B9666D00E08B0C /* ViewController.xib */; };
-		1F3C5CCF15B9691500E08B0C /* DEMazeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C5CC815B9669C00E08B0C /* DEMazeGenerator.m */; };
+		1F3C5CCF15B9691500E08B0C /* DEMazeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C5CC815B9669C00E08B0C /* DEMazeGenerator.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -265,7 +265,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MazeGenerator/MazeGenerator-Prefix.pch";
 				INFOPLIST_FILE = "MazeGenerator/MazeGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,7 +278,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MazeGenerator/MazeGenerator-Prefix.pch";
 				INFOPLIST_FILE = "MazeGenerator/MazeGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -300,6 +304,7 @@
 				1F3C5CC115B9666D00E08B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
