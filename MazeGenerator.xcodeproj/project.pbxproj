@@ -16,6 +16,7 @@
 		1F3C5CB915B9666D00E08B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C5CB815B9666D00E08B0C /* ViewController.m */; };
 		1F3C5CBC15B9666D00E08B0C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3C5CBA15B9666D00E08B0C /* ViewController.xib */; };
 		1F3C5CCF15B9691500E08B0C /* DEMazeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C5CC815B9669C00E08B0C /* DEMazeGenerator.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		1F942D2C172921AF004C4A55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F942D2B172921AF004C4A55 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1F3C5CC715B9669C00E08B0C /* DEMazeGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEMazeGenerator.h; sourceTree = "<group>"; };
 		1F3C5CC815B9669C00E08B0C /* DEMazeGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMazeGenerator.m; sourceTree = "<group>"; };
 		1F3C5CCE15B9672F00E08B0C /* DEIntegerPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEIntegerPoint.h; sourceTree = "<group>"; };
+		1F942D2B172921AF004C4A55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1F3C5C9615B9666C00E08B0C = {
 			isa = PBXGroup;
 			children = (
+				1F942D2B172921AF004C4A55 /* Default-568h@2x.png */,
 				1F3C5CAB15B9666D00E08B0C /* MazeGenerator */,
 				1F3C5CA415B9666D00E08B0C /* Frameworks */,
 				1F3C5CA215B9666D00E08B0C /* Products */,
@@ -147,7 +150,7 @@
 		1F3C5C9815B9666C00E08B0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 1F3C5C9B15B9666C00E08B0C /* Build configuration list for PBXProject "MazeGenerator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -173,6 +176,7 @@
 			files = (
 				1F3C5CB015B9666D00E08B0C /* InfoPlist.strings in Resources */,
 				1F3C5CBC15B9666D00E08B0C /* ViewController.xib in Resources */,
+				1F942D2C172921AF004C4A55 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +222,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -244,6 +252,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
